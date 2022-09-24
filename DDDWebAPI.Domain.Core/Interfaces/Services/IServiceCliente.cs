@@ -2,7 +2,7 @@
 
 namespace DDDWebAPI.Domain.Core.Interfaces.Services
 {
-    public interface IServiceCliente : IServiceBase<Cliente>
+    public interface IServiceCliente : IServiceBases<Cliente>
     {
     }
 }

@@ -2,7 +2,7 @@
 
 namespace DDDWebAPI.Domain.Core.Interfaces.Repositorys
 {
-    public interface IRepositoryProduto : IRepositoryBase<Produto>
+    public interface IRepositoryProduto : IRepositoryBases<Produto>
     {
     }
 }

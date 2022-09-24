@@ -5,11 +5,11 @@ using System.Collections.Generic;
 
 namespace DDDWebAPI.Domain.Services.Services
 {
-    public abstract class ServiceBase<TEntity> : IDisposable, IServiceBase<TEntity> where TEntity : class
+    public abstract class ServiceBase<TEntity> : IDisposable, IServiceBases<TEntity> where TEntity : class
     {
-        private readonly IRepositoryBase<TEntity> _repository;
+        private readonly IRepositoryBases<TEntity> _repository;
 
-        public ServiceBase(IRepositoryBase<TEntity> Repository)
+        public ServiceBase(IRepositoryBases<TEntity> Repository)
         {
             _repository = Repository;
         }

@@ -2,7 +2,7 @@
 
 namespace DDDWebAPI.Domain.Core.Interfaces.Repositorys
 {
-    public interface IRepositoryCliente : IRepositoryBase<Cliente>
+    public interface IRepositoryCliente : IRepositoryBases<Cliente>
     {
     }
 }

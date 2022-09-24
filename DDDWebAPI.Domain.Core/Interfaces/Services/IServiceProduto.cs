@@ -2,7 +2,7 @@
 
 namespace DDDWebAPI.Domain.Core.Interfaces.Services
 {
-    public interface IServiceProduto : IServiceBase<Produto>
+    public interface IServiceProduto : IServiceBases<Produto>
     {
     }
 }

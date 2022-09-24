@@ -2,7 +2,7 @@
 
 namespace DDDWebAPI.Domain.Core.Interfaces.Services
 {
-    public interface IServiceBase<TEntity> where TEntity : class
+    public interface IServiceBases<TEntity> where TEntity : class
     {
 
         void Add(TEntity obj);

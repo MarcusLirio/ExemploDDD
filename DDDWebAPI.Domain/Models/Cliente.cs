@@ -2,7 +2,7 @@
 
 namespace DDDWebAPI.Domain.Models
 {
-    public class Cliente : Base
+    public class Cliente : Bases
     {
         public string Nome { get; set; }
         public string Sobrenome { get; set; }

@@ -1,6 +1,6 @@
 ﻿namespace DDDWebAPI.Domain.Models
 {
-    public class Produto : Base
+    public class Produto : Bases
     {
         public string Nome { get; set; }
         public decimal Valor { get; set; }

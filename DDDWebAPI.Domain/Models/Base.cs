@@ -1,6 +1,6 @@
 ﻿namespace DDDWebAPI.Domain.Models
 {
-    public class Base
+    public class Bases
     {
         public int? Id { get; set; }
     }

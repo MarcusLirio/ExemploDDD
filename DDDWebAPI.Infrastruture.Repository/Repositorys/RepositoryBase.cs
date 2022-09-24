@@ -7,7 +7,7 @@ using System.Linq;
 
 namespace DDDWebAPI.Infrastruture.Repository.Repositorys
 {
-    public abstract class RepositoryBase<TEntity> : IDisposable, IRepositoryBase<TEntity> where TEntity : class
+    public abstract class RepositoryBase<TEntity> : IDisposable, IRepositoryBases<TEntity> where TEntity : class
     {
         private readonly SqlContext _context;
 

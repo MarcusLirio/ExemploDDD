@@ -2,7 +2,7 @@
 
 namespace DDDWebAPI.Domain.Core.Interfaces.Repositorys
 {
-    public interface IRepositoryBase<TEntity> where TEntity : class
+    public interface IRepositoryBases<TEntity> where TEntity : class
     {
         void Add(TEntity obj);
 
